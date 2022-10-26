@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+
+
+body{
+    background-color: gray;
+
+}
+header{
+    margin: 2px solid color white;
+    background-color: black
+    
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+
+
+}
+
+header nav .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    margin-bottom: 15px;
+
+}
+
+header nav .menu .logo img{
+    width: 150px;
+    margin: 10 10 ;
+}
+header nav .menu .link{
+    display: flex;
+    font-weight: bolder;
+
+    
+}
+header nav .menu .link a{
+padding: 10px 10px;
+
+    color: gray;
+    text-decoration: none;
+}
+
+header nav .ingresar button{
+    padding: 10px 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    font-size: large;
+}
+.titulo1{
+    font-size: 50px;
+    padding: 20px 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+article{
+    border: 2px solid cornsilk;
+    color: antiquewhite;
+    padding: 20px 20px  ;
+    background-color: gray;   
+    display: flex
+    
+}
+
+.parrafo_principal{
+    text-align: right;
+}
+.content{
+    border: 2px solid cornsilk;
+    color: antiquewhite;
+    padding: 20px   ;
+    background-color: gray;
+    
+}
+.flex-container {
+    display: flex;
+    background-color: black;
+    padding: 20px;
+
+
+
+
+}
+footer{
+    color: whitesmoke;
+    background-color: black;}
+
+
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex
+
+}
+li{
+    padding: 0 15px;
+    margin-bottom: 15px;
+
+}
+a{font-size: 14px;
+    font-weight: 500;
+    color: antiquewhite;
+
+}
+
+.img_footer{
+    width: 90px;
+}
+.p_footer{
+    text-align: center;
+}
+/* ------3x3 basket------------*/ 
+.contenido3x3{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    margin-left: 130px;
+    padding: 20px 20px;
+    width: 80%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.foto3x3{
+    border: 2px solid whitesmoke;
+    align-items: center;
+    width: calc(80% - 120px);
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.titulo3x3{
+    height: 200px;
+    font-weight: 100%;
+    text-align: center;
+    font-size: 150px;
+}
+.h2_videos3x3{
+    height: 100px;
+    font-weight: 70%;
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 30px;
+
+
+}
+.videos3x3{
+    align-items: center;
+    border: 2px solid   whitesmoke;
+    padding: 30px;
+    margin: 0;
+}
+.audio1{
+    align-items: center;
+}
+
+/*---------------NUESTROS CLIENTES---------------*/
+
+.nuestros_clientes{
+    padding: 50px;
+    width: 90;
+    border: 3px solid whitesmoke;
+}
+.titulo_clientes{
+    height: 200px;
+    font-weight: 100%;
+    text-align: center;
+    font-size: 100px;
+}
+
+.titulo_clientes2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+/*--------PRODUCTOS-------------*/
+.productos{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    margin-left: 130px;
+    padding: 20px 20px;
+    width: 80%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid whitesmoke;
+    align-items: center;
+    width: calc(80% - 120px);
+    padding-top: 30px;
+    margin-top: 30px;
+}
+/*-----------CONTACTANOS------------------*/
+.contenido_contactanos{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    padding: 20px 20px;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid whitesmoke;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+.titulo_formulario{
+    margin-bottom: 20px;
+    color: red;
+}
+.formulario{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    padding: 20px 20px;
+    width: 100%;
+    border: 2px solid whitesmoke;
+    align-items: center;
+    margin-bottom: 40px;
+
+
+}
+.img_formulario{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    margin-left: 130px;
+    padding: 20px 20px;
+    width: calc(80% - 40px);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+}
+.formulario_{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    margin-left: 130px;
+    padding: 20px 20px;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    border: 2px solid whitesmoke;
+    text-align: end;
+}
